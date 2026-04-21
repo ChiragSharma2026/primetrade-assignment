@@ -3,7 +3,7 @@
 ## Setup
 
 Install dependencies:
-pip install pandas matplotlib seaborn
+pip install pandas matplotlib seaborn scikit-learn
 
 Place both CSV files in the same folder as the notebook:
 - fear_greed_index.csv
