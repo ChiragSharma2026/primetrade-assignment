@@ -40,9 +40,20 @@ Open and run trader_sentiment_analysis.ipynb top to bottom.
 2. Mid Performers should reduce exposure during Fear and wait for Greed confirmation
 3. Avoid long-biased positions during Fear periods regardless of segment
 
+## Bonus — Behavioral Archetype Clustering
+Traders clustered into 3 archetypes using KMeans on win rate, trade volume, position size, and total PnL:
+
+* Power Traders — high volume, large positions, dominant PnL ($940K median)
+* Precision Traders — highest win rate (95.3%), low volume, selective but accurate
+* Active Mid-Tier — moderate across all metrics, room to develop in either direction
+
+Key finding: Win rate alone does not predict PnL. Power Traders have lower win rates
+than Precision Traders but 9x higher total PnL.
+
 ---
 
 ## Output Charts
 - pnl_by_sentiment.png
 - behavior_by_sentiment.png
 - segment_sentiment.png
+- clustering.png
